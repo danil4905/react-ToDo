@@ -1,10 +1,11 @@
 import React from 'react';
-import { Form } from '../components/form';
+import { Form } from '../components/Form';
 
 const Home = (props) => {
     return (
-        
-        <Form />        
+        <React.Fragment>
+            <Form notes={[]}/>
+        </React.Fragment>
     )
 }
 export default Home;

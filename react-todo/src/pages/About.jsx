@@ -4,9 +4,9 @@ const About = (props) => {
   return (
       <div className="jumbotron">
           <div className="container">
-              <h1 className="display-4">Лучшее React приложение</h1>
+              <h1 className="display-4">Test React App</h1>
               <p className="lead">
-                  Версия приложения <strong>1.0.42</strong>
+                  App version <strong>1.0.42</strong>
               </p>
           </div>
       </div> )
